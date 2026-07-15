@@ -124,8 +124,7 @@ class CFG:
     num_layers: int = 1
     # num_layers: int = 2
     self_layers: int = 1
-    #dropout: float = 0
-    dropout: float = 0
+    dropout: float = 0.05
     ffn_expansion: int = 4
     pooling: str = "attn_max"  # mean, max, max_mean, attn, attn_mean
     # pooling: str = "max_mean"  # mean, max, max_mean, attn, attn_mean
